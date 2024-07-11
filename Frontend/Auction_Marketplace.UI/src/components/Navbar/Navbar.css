@@ -1,0 +1,154 @@
+.logo-container{
+  padding-left: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color:white;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  padding-left: 20px;
+}
+
+.nav-links-default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 19px; 
+  transition: color 0.3s ease;
+  padding: 5px 10px;
+  border: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.heart-page-link {
+  color: rgb(241, 104, 150);
+  font-size: 30px; 
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.heart {
+  margin-right: 1%;
+}
+
+.nav-item:hover {
+  color: blue;
+}
+
+.nav-item.active {
+  font-weight: bold;
+  border-color: green;
+}
+
+.nav-links-user {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 110px;
+}
+
+.profile-picture-container {
+  width: 38px; /* Reduced size for smaller screens */
+  height: 38px; /* Reduced size for smaller screens */
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-picture:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .nav-container {
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
+  }
+  
+  .logo-container {
+    display: none; 
+  }
+
+  .nav-links-default {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end; 
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-right: 2px; 
+    font-size: 14px; 
+    padding: 3px 8px
+  }
+
+  .heart {
+    margin-right: 10px;
+  }
+
+  .profile-picture-container {
+    width: 30px; 
+    height: 30px; 
+    border: none;
+  }
+
+  .heart-page-link{
+    font-size: 11px;
+  }
+
+  .nav-links-user{
+    margin-left: -33px;
+  }
+}
+
+.user-name {
+  padding-right: 5%;
+  color: black;
+}
+
+.dropdown-button {
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+.dropdown-item {
+  margin-top: -20px;
+  margin-right: 15px;
+  list-style-type: none;
+}
+
+.login-link {
+  font-size: larger;
+  text-decoration: none;
+  color: #9d073b;
+  font-style: italic;
+}

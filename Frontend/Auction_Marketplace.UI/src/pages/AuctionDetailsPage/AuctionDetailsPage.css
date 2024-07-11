@@ -1,0 +1,276 @@
+.auction-details-container {
+  max-width: 1292px;
+  height: 550px;
+  margin-top: 129px;
+  padding: 20px;
+  padding-right: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 180px;
+}
+
+.auction-content {
+  display: flex;
+  flex: 1;
+}
+
+.auction-photo {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.auction-photo img {
+  width: 180%;
+  height: 90%;
+  object-fit: fill;
+}
+
+.auction-details {
+  flex: 2;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 300px;
+}
+
+.description {
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+
+.start-price {
+  font-size: 20px;
+  margin-top: 71px;
+}
+
+.bid-section {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 14px;
+  margin-left: 7px;
+  margin-right: 31spx;
+
+}
+
+.bid-button {
+  border: solid 1px #9d073b;
+  padding: 12px;
+  cursor: pointer;
+  margin-left: 20px;
+  width: 17%;
+  color: black;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.bid-success-note {
+  color: #28a745;
+  margin-top: 10px;
+}
+
+.head-auction-name {
+  text-align: center;
+  font-size: 40px;
+}
+
+.bidAmount {
+  font-size: 24px;
+}
+
+.user-container {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold; 
+}
+
+.input-bid-invalid {
+  border: 1px solid red;
+}
+
+.input-bid-invalid::placeholder {
+  color: red;
+}
+
+.label-bid {
+  margin-right: 10px;
+}
+
+.time-left {
+  font-size: large;
+}
+
+@media (max-width: 1300px) {
+  .auction-details-container {
+    max-width: 100%;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .auction-content {
+    display: flex;
+    max-width: max-content;
+    max-height: max-content;
+  }
+  
+  .auction-photo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auction-details {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+  }
+
+  .description {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  
+  .start-price {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .bid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .bid-success-note {
+    color: #28a745;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .head-auction-name {
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .bidAmount {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .user-container {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .input-bid-invalid {
+    border: 1px solid red;
+  }
+  
+  .input-bid-invalid::placeholder {
+    color: red;
+  }
+  
+  .label-bid {
+    margin-right: 10px;
+  }
+  
+  .time-left {
+    font-size: medium;
+    text-align: center;
+  }
+}
+
+.reviews-container {
+  padding: 27px;
+  margin-bottom: 30px;
+}
+
+.header-reviews {
+  padding-bottom: 20px;
+}
+
+.reviews-comment {
+  font-size: x-large;
+}
+
+.reviews-rating {
+  font-size: medium;
+}
+
+.reviews-container ul {
+  list-style-type: none; 
+}
+
+.reviews-container li {
+  list-style-type: none;
+}
+
+.input-comment {
+  width: 38%;
+  height: 81px;
+}
+
+.new-star-rating {
+  font-size: xx-large;
+}
+
+.add-review-container {
+  padding-top: 23px;
+}
+
+.add-review-button{
+    max-width: 38%;
+    background-color: #9d073b;
+    cursor: pointer;
+    padding: 12px;
+    color: white;
+}
+
+.average-rating {
+  font-size: x-large;
+  color: #9d073b;
+}
