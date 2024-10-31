@@ -1,9 +1,9 @@
 
-**Application Description
+#Application Description
 The web application organizes open bidding auctions using game theory for optimizing trading strategies.
 It provides a user-friendly platform for managing auctions, ensuring security and convenience for participants.
 
-**Technologies and Tools
+#Technologies and Tools
 The development of the web application for organizing auctions with open bidding involves various technologies and tools, specifically chosen to align with the project's tasks and requirements. Below is a detailed description of the technologies and tools used:
 Backend with C#: The backend of the web application is developed using the C# programming language. It is a powerful and efficient language that offers rich capabilities for developing secure and stable web applications.
 Frontend with TypeScript and CSS: The user interface of the web application is developed using TypeScript and CSS. TypeScript provides easier management of complex data and better type safety, while CSS is used for styling and visual design of the application.
