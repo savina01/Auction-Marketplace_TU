@@ -27,3 +27,11 @@ The SendGrid API is used for sending emails, providing powerful tools for automa
 Local Execution:
 The project runs on a local machine, accessed via localhost. This allows developers to conduct local development and testing before deploying the application to a production environment.
 
+
+![image](https://github.com/user-attachments/assets/8debee79-ef28-4bb3-8e99-f08c38d02895)
+![image](https://github.com/user-attachments/assets/583bb223-6abd-4301-ba7d-18039066570f)
+![image](https://github.com/user-attachments/assets/915c9a5b-c01b-41ad-a4a6-c9de7e09b8af)
+![image](https://github.com/user-attachments/assets/d0351fc6-cf7d-49f7-a2d3-189874cff66e)
+![image](https://github.com/user-attachments/assets/ed42e5f0-f433-4c1d-8d17-2b89e13f39d7)
+![image](https://github.com/user-attachments/assets/29f4029f-7e93-4a28-b6f6-6b170aa0f355)
+![image](https://github.com/user-attachments/assets/260f1d9c-8fe4-4e31-811d-20211222933c)
